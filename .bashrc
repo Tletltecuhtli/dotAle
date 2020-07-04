@@ -118,6 +118,13 @@ fi
 
 neofetch
 
-function prueba() {
-	echo Hello, $1
+function respaldar() {
+	cp .bashrc dotAle/
+	cp -r .config dotAle/
+}
+
+function subir_git() {
+	git add -A
+	git commit -a -m "$1"
+	git push --all
 }
