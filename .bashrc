@@ -118,13 +118,21 @@ fi
 
 neofetch
 
+alias upt="source ~/.bashrc"
+
 function respaldar() {
-	cp .bashrc dotAle/
-	cp -r .config dotAle/
+	cp ~/.bashrc ~/dotAle/
+	cp -r ~/.config ~/dotAle/
 }
 
 function subir_git() {
 	git add -A
 	git commit -a -m "$1"
 	git push --all
+}
+
+function m2pdf() {
+	for f in *.md; do
+		pandoc "$f" -o "$(basename "$f" .md).pdf"
+	done
 }

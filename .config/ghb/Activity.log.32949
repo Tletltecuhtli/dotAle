@@ -1,0 +1,53 @@
+[21:36:28] gtkgui: HandBrake 1.3.1 (2020032300) - Linux x86_64 - https://handbrake.fr
+[21:36:28] hb_init: starting libhb thread
+[21:36:28] hb_init: starting libhb thread
+[21:36:28] hb_init: starting libhb thread
+[21:36:30] CPU: Intel(R) Core(TM) i3-6100 CPU @ 3.70GHz
+[21:36:30]  - Intel microarchitecture Skylake
+[21:36:30]  - logical processor count: 4
+[21:36:30] hb_scan: path=/home/ale/Vídeos/[ReinForce] Shingeki no Kyojin - 01 (BDRip 1920x1080 x264 FLAC).m4v, title_index=0
+udfread ERROR: ECMA 167 Volume Recognition failed
+disc.c:323: failed opening UDF image /home/ale/Vídeos/[ReinForce] Shingeki no Kyojin - 01 (BDRip 1920x1080 x264 FLAC).m4v
+disc.c:424: error opening file BDMV/index.bdmv
+disc.c:424: error opening file BDMV/BACKUP/index.bdmv
+bluray.c:2585: nav_get_title_list(/home/ale/Vídeos/[ReinForce] Shingeki no Kyojin - 01 (BDRip 1920x1080 x264 FLAC).m4v/) failed
+[21:36:30] bd: not a bd - trying as a stream/file instead
+libdvdnav: Using dvdnav version 6.0.1
+libdvdread: Encrypted DVD support unavailable.
+************************************************
+**                                            **
+**  No css library available. See             **
+**  /usr/share/doc/libdvdread4/README.css     **
+**  for more information.                     **
+**                                            **
+************************************************
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.IFO failed
+libdvdread:DVDOpenFileUDF:UDFFindFile /VIDEO_TS/VIDEO_TS.BUP failed
+libdvdread: Can't open file VIDEO_TS.IFO.
+libdvdnav: vm: failed to read VIDEO_TS.IFO
+[21:36:30] dvd: not a dvd - trying as a stream/file instead
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/ale/Vídeos/[ReinForce] Shingeki no Kyojin - 01 (BDRip 1920x1080 x264 FLAC).m4v':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    creation_time   : 2020-05-25T02:01:19.000000Z
+    title           : [ReinForce] Shingeki no Kyojin - 01 (BDRip 1920x1080 x264 FLAC)
+    encoder         : HandBrake 1.3.1 2020032300
+  Duration: 00:25:40.97, start: 0.000000, bitrate: 1129 kb/s
+    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 720x480 [SAR 32:27 DAR 16:9], 962 kb/s, 23.98 fps, 23.98 tbr, 90k tbn, 180k tbc (default)
+    Metadata:
+      creation_time   : 2020-05-25T02:01:19.000000Z
+      handler_name    : VideoHandler
+    Stream #0:1(jpn): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 160 kb/s (default)
+    Metadata:
+      creation_time   : 2020-05-25T02:01:19.000000Z
+      handler_name    : Stereo
+    Stream #0:2(und): Subtitle: mov_text (tx3g / 0x67337874), 853x72 (default)
+    Metadata:
+      creation_time   : 2020-05-25T02:01:19.000000Z
+      handler_name    : SubtitleHandler
+[21:36:30] scan: decoding previews for title 1
+[21:36:30] scan: audio 0x1: aac, rate=48000Hz, bitrate=160057 日本語 (AAC LC) (2.0 ch) (160 kbps)
+[21:36:30] scan: 10 previews, 720x480, 23.976 fps, autocrop = 0/0/0/0, aspect 16:9, PAR 32:27
+[21:36:30] libhb: scan thread found 1 valid title(s)

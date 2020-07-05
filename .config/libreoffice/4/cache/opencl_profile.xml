@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile>
+ <version>LibreOffice v1</version>
+ <device>
+  <type>opencl</type>
+  <name>GeForce GT 1030</name>
+  <driver>435.21</driver>
+  <time>103416</time>
+  <errors>false</errors>
+ </device>
+ <device>
+  <type>native</type>
+  <time>3488256</time>
+  <errors>false</errors>
+ </device>
+</profile>
